@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="qa.com.test.testcases.RegisterTestcase">
+        <methods>
+          <include name="EmailFacebookRegister"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="GoogleRegisterTestcase"/>
+          <include name="setupTest"/>
+          <include name="tearDownTest"/>
+          <include name="RegisterManualEmailPasswordcorrect"/>
+        </methods>
+      </class> <!-- qa.com.test.testcases.RegisterTestcase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
